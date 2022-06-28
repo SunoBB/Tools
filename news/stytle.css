@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #1e1e2b;
+}
+
+figure {
+    height: 600px;
+    background-color: #27293d;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.form-news {
+    color: #a9a9b1;
+}
+.type-source {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.card {
+    border: 0;
+    border-radius: 0;
+}
+.type-news,
+.source {
+    font-size: 2rem;
+}
+.type-news-preview {
+    font-size: 18px;
+    width: max-content;
+    font-weight: 600;
+}
+.type-news-preview::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+}
+.type-news {
+    width: max-content;
+    font-weight: 600;
+}
+
+.type-news::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: #000;
+}
+
+.source {
+    text-align: right;
+}
+
+.source::before {
+    content: "("
+}
+
+.source::after {
+    content: ")"
+}
+.card {
+    display: block;
+}
+.card-title {
+    font-size: 48px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.card-text {
+    font-size: 36px;
+    height: 328px;
+    overflow: hidden;
+}
+.card-body {
+    background-color: #fff;
+    background: url('Logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    padding: 2rem;
+}
+figure {
+    position: relative;
+}
+.thumbnail-news {
+    width: 150px;
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+}
+.description {height: 170px !important}
